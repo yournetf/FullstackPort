@@ -1,10 +1,13 @@
+import { useState } from "react";
 import Showcase from "../Components/Showcase.jsx";
-
+import { universityVideoPaths } from "../DataFiles/UniversityPageData.js";
+import { universityVideoNames } from "../DataFiles/UniversityPageData.js";
 
 function University(){
+
     return(
     <>
-        <Showcase video1={"hello"} video2={"hey"} video3 = {"eafcf"}></Showcase>
+        <Showcase arrayNames={universityVideoNames} arrayPaths={universityVideoPaths}></Showcase>
     </>
     )
 }
