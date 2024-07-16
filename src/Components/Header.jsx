@@ -6,12 +6,19 @@ function Header(){
     return(
         <>
             <div className="header-background">
-                <button id="home-button" className="header-buttons"><Link to='/'></Link></button>
+                <Link to="/">
+                    <button id="home-button" className="header-buttons"><Link to='/'></Link></button>
+                </Link>
                 <a id="phatblack-link" href="https://phat-black.web.app/" target="_blank">  
                     <button id="phatblack-button" className="header-buttons"></button>   
                 </a>
-                <button id="university-button" className="header-buttons"></button>
-                <button id="personal-button" className="header-buttons"></button>
+                <Link to= "/University">
+                    <button id="university-button" className="header-buttons"></button>
+                </Link>
+                <Link to="/PersonalProjects">
+                    <button id="personal-button" className="header-buttons"></button>
+                </Link>
+                
             </div>
         </>
     )

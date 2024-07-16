@@ -71,7 +71,7 @@ function Home(){
                             <div className="desk-small-extender"></div>
                         </div>
 
-                    </div>?
+                    </div>
                 
 
 

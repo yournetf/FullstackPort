@@ -1,7 +1,9 @@
 import {BrowserRouter, Routes, Route, useLocation} from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Routes/Home';
+import About from './Routes/University';
 import './App.css'
+import University from './Routes/University';
 
 
 function App() {
@@ -13,8 +15,13 @@ function App() {
       <Routes>
         <Route path='/' element={
           <>
-            <Header/>
             <Home/>
+          </>
+        }/>
+
+        <Route path='/University' element={
+          <>
+            <University/>
           </>
         }/>
 

@@ -1,0 +1,7 @@
+.showcaseDiv{
+    color: white;
+    margin-top: max(100px, 10vw);
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
