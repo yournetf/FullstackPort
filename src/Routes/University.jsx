@@ -8,6 +8,12 @@ function University(){
     return(
     <>
         <Showcase arrayNames={universityVideoNames} arrayPaths={universityVideoPaths}></Showcase>
+        <div className="chairSection">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </>
     )
 }
