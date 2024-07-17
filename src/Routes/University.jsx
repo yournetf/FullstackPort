@@ -2,6 +2,8 @@ import { useState } from "react";
 import Showcase from "../Components/Showcase.jsx";
 import { universityVideoPaths } from "../DataFiles/UniversityPageData.js";
 import { universityVideoNames } from "../DataFiles/UniversityPageData.js";
+import "../Styles/University.css";
+import MovieChair from "../Components/MovieChair.jsx";
 
 function University(){
 
@@ -9,10 +11,16 @@ function University(){
     <>
         <Showcase arrayNames={universityVideoNames} arrayPaths={universityVideoPaths}></Showcase>
         <div className="chairSection">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
         </div>
     </>
     )

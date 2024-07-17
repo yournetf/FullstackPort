@@ -1,0 +1,8 @@
+.MovieChair{
+    position: relative;
+    top: -10px;
+    max-height: 100px;
+    background-color: rgb(184, 4, 4);
+    clip-path: ellipse(30% 80% at 51% 87%);
+    box-shadow: 10px 10px 10px 10px rgba(133, 130, 130, 0.246);
+}
