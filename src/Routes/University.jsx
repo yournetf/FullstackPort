@@ -21,6 +21,26 @@ function University(){
             <MovieChair/>
             <MovieChair/>
             <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
+            <MovieChair/>
         </div>
     </>
     )
