@@ -1,11 +1,10 @@
 .chair{
     background-color:transparent;
-    position: relative;
+    position: absolute;
     top: 0px;
-    left: 120px;
+    left: 140px;
     max-width: 150px;
-    height: 300px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .chair-animated{

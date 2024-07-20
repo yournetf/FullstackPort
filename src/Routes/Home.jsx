@@ -1,16 +1,10 @@
 import React from "react";
-import { useState } from "react";
 import "../Styles/Home.css";
-import { useRef } from "react";
-import { useEffect } from "react";
 import DeskChair from "../Components/DeskChair";
 import Desk from "../Components/Desk";
-
-
+import Monitor from "../Components/Monitor";
 
 function Home(){
-
-    
 
     return(
         <>
@@ -22,23 +16,17 @@ function Home(){
                         <div className="head"></div>
                     </div>
 
-                    <DeskChair></DeskChair>
-                    <Desk></Desk>
-
-                    <div className="monitorDiv">
-                        <div className="monitors" id="leftMonitor"></div>
-                        <div className="monitors" id="midMonitor"></div>
-                        <div className="monitors" id="rightMonitor"></div>
-                    </div>
-
-
-
-
-                    
+                    <div className="setup-container">
+                        <DeskChair></DeskChair>
+                        <Desk></Desk>
+                        <Monitor degreeAngle={45} marginLeft={20}></Monitor>
+                        <Monitor degreeAngle={0} marginLeft={140}></Monitor>
+                        <Monitor degreeAngle={135} marginLeft={260}></Monitor>
+                    </div>                    
                 </div>
             </div>
         </>
     )
 }
 
-export default Home
+export default Home;

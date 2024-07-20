@@ -32,7 +32,7 @@ function Desk(){
                          <div className="desk-buttons-container">
                             <button id="upArrow" onClick={handleDeskAdjust}><TiArrowSortedUp /></button>
                             <button id="downArrow" onClick={handleDeskAdjust}><TiArrowSortedDown /></button> 
-                            {/* <p id="desk-height">{deskHeight}</p>   */}
+                            <p id="desk-height">{deskHeight}</p>  
                         </div>
                     </div>
                 </div>

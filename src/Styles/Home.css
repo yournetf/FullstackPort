@@ -13,3 +13,16 @@
 }
 
 
+.setup-container{
+    position: relative;
+    min-height: 250px;
+    max-width: fit-content;
+    left: 35%;
+    top: 25%;
+}
+
+
+
+
+
+
