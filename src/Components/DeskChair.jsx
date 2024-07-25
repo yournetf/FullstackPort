@@ -28,7 +28,7 @@ function DeskChair(){
                                 <div className="medium-cylinder"></div>
                                 <div className="big-cylinder"></div>
                             </div>
-                            <div className="chair-legs"  onClick={handleLegsClick}>
+                            <div className="chair-legs">
                                 <div id="chair-leg-long-left" className="chair-leg-long">
                                     <div id="chair-leg-long-wheel-left" className="chair-leg-long-wheel"></div>
                                 </div>

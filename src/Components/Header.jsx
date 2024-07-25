@@ -15,9 +15,9 @@ function Header(){
                 <Link to= "/University">
                     <button id="university-button" className="header-buttons"></button>
                 </Link>
-                <Link to="/PersonalProjects">
+                <a href="https://frank-yournet-daily-trivia-daf88c18aee5.herokuapp.com/" target="_blank">
                     <button id="personal-button" className="header-buttons"></button>
-                </Link>
+                </a>
                 
             </div>
         </>

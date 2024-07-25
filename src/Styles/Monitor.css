@@ -17,6 +17,7 @@
     margin-left: 5%;
     margin-top: 2.5%;
     background-color: rgb(1, 1, 1);
+    overflow: hidden;
 }
 
 .monitorFrameSide{
@@ -30,4 +31,8 @@
 
 #monitorFrameSideRight{
     margin-left: 105%;
+}
+embed{
+    max-width: 140px;
+    cursor: pointer;
 }

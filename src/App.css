@@ -8,6 +8,7 @@
 
 html, body{
   position: relative;
-  background-color: rgba(133, 133, 133, 0.617);
+  background-color: rgb(48, 48, 48);
   overflow-x: hidden;
+  overflow-y: hidden;
 }

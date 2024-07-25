@@ -18,7 +18,11 @@ function Monitor(props){
 
         <div className="monitorDiv" style= {{ transform: `rotate3d(0, 1, 0, ${props.degreeAngle}deg)`, marginLeft: `${props.marginLeft}px` }}>
             <div className="monitorFrame">
-                <div className="monitorScreen"></div>
+                <div className="monitorScreen">
+                    <embed src={props.imagePath} className="pdf" onClick={()=>{
+                        window.open(props.link, "_blank");
+                    }} />
+                </div>
             </div>
             <div id="monitorFrameSideLeft" className="monitorFrameSide" style= {{ transform: `rotate3d(0, 1, 0, ${props.degreeAngle + 90}deg)`, display: `${displayLeftSide}`}}></div>
             <div id="monitorFrameSideRight" className="monitorFrameSide" style= {{ transform: `rotate3d(0, 1, 0, ${props.degreeAngle + 90}deg)`, display: `${displayRightSide}` }}></div>
@@ -32,7 +36,9 @@ function Monitor(props){
 
 Monitor.propTypes = {
     degreeAngle: PropTypes.number.isRequired,
-    marginLeft: PropTypes.number
+    marginLeft: PropTypes.number,
+    imagePath: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired
 }
 
 export default Monitor;
