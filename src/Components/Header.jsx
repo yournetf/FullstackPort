@@ -7,7 +7,7 @@ function Header(){
         <>
             <div className="header-background">
                 <Link to="/">
-                    <button id="home-button" className="header-buttons"><Link to='/'></Link></button>
+                    <button id="home-button" className="header-buttons"></button>
                 </Link>
                 <a id="phatblack-link" href="https://phat-black.web.app/" target="_blank">  
                     <button id="phatblack-button" className="header-buttons"></button>   
@@ -24,4 +24,4 @@ function Header(){
     )
 }
 
-export default Header
+export default Header;

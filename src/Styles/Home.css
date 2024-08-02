@@ -3,21 +3,9 @@
     margin-top: 200px;
     z-index: 1;
     position: relative;
-    background-color: rgb(255, 255, 255);
-}
+    background-color: rgb(48, 48, 48);}
 
-.welcomeDiv{
-    position: relative;
-    top: -70px;
-    left: -25px;
-    background-color: white;
-    width: 450px;
-    border-radius: 10rem;
-    padding: 5px;
-    justify-content: center;
-    text-align: center;
-    font-weight: 900;
-}
+
 
 .desk-scene-container{
     position: relative;
@@ -34,6 +22,12 @@
     max-width: fit-content;
     left: 35%;
     top: 25%;
+}
+
+img{
+    position: absolute;
+    margin-left: -300px;
+    margin-top: -130px;
 }
 
 

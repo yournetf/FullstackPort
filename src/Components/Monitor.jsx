@@ -39,6 +39,6 @@ Monitor.propTypes = {
     marginLeft: PropTypes.number,
     imagePath: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired
-}
+};
 
 export default Monitor;
