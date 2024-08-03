@@ -4,8 +4,18 @@ import DeskChair from "../Components/DeskChair";
 import Desk from "../Components/Desk";
 import Monitor from "../Components/Monitor";
 import PalmTree from "../Components/PalmTree";
+import { useEffect } from "react";
 
 function Home(){
+
+    useEffect(() => {
+        document.body.style.zoom = "110%";
+        window.scrollTo({
+            top: 150,
+            left: 140,
+            behavior: 'smooth' // Optional: smooth scrolling
+          });
+      }, []);
 
     return(
         <>
