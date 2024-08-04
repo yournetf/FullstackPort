@@ -6,7 +6,7 @@ function Header(){
     return(
         <>
             <div className="header-background">
-                <Link to="/">
+                <Link to="/FullstackPort">
                     <button id="home-button" className="header-buttons"></button>
                 </Link>
                 <a id="phatblack-link" href="https://phat-black.web.app/" target="_blank">  

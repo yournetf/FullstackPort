@@ -19,7 +19,7 @@ function Monitor(props){
         <div className="monitorDiv" style= {{ transform: `rotate3d(0, 1, 0, ${props.degreeAngle}deg)`, marginLeft: `${props.marginLeft}px` }}>
             <div className="monitorFrame">
                 <div className="monitorScreen">
-                    <embed src={props.imagePath} className="pdf" onClick={()=>{
+                    <embed src={props.imagePath} className="monitorContent" onClick={()=>{
                         window.open(props.link, "_blank");
                     }} />
                 </div>
