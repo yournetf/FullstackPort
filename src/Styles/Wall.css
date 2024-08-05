@@ -1,0 +1,12 @@
+.wallDiv{
+    position: absolute;
+    background-color: green;
+}
+
+.wallSide{
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    margin-left: 200px;
+    background-color: rgb(27, 27, 27);
+}
