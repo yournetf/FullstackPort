@@ -1,0 +1,25 @@
+.windowDiv{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 8px solid white;
+}
+
+.blinds{
+    position: absolute;
+    width: 100%;
+    height: 2.5%;
+    transform: rotate3d(1, 0, 0, 75deg);
+    background-color: rgb(197, 197, 197);
+}
+
+.blindsClosed{
+    
+}
+
+
+
+
+
+.sun-moon{}

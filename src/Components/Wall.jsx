@@ -13,9 +13,9 @@ function Wall(props){
 
                 <div className="wallContent">
                     {/* Checks to see if a component is passed, if true than render the component */}
-                    {props.Component && <Component />}
+                    {props.Component && <props.Component {...props.componentProps} />}
                 </div>
-                <div className="wallSide" style={{marginLeft: `${props.width}px`}}></div>
+                <div className="wallSide" style={{marginLeft: `${props.width}px`, opacity: `${props.sideOpacity}`}}></div>
 
             </div>
         </>
@@ -28,7 +28,9 @@ Wall.propTypes = {
     moveRight: PropTypes.number.isRequired,
     moveDown: PropTypes.number.isRequired,
     angle: PropTypes.number.isRequired,
-    Component: PropTypes.elementType
+    Component: PropTypes.elementType,
+    componentProps: PropTypes.object,
+    sideOpacity: PropTypes.number
 }
 
 export default Wall;
