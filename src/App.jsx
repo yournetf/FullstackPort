@@ -4,7 +4,7 @@ import Home from './Routes/Home';
 import About from './Routes/University';
 import './App.css'
 import University from './Routes/University';
-
+import SwitchButton from './Components/SwitchButton';
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
     <>
      <BrowserRouter>
       <Header/>
+      <SwitchButton/>
       <Routes>
         <Route path='/FullstackPort' element={
           <>
@@ -24,10 +25,7 @@ function App() {
             <University/>
           </>
         }/>
-
-
       </Routes>
-     
      </BrowserRouter>
     </>
   )

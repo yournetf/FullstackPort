@@ -17,8 +17,8 @@ function Window(props){
 
                 <div className="windowContent">
                     {blinds}
-                    <div className="sky-night">
-                        <div className="sun-moon-night"></div>
+                    <div className="sky">
+                        <div className="sun-moon"></div>
                     </div>
                 </div>
                 <div className="windowSide"></div>
