@@ -6,6 +6,7 @@ import Monitor from "../Components/Monitor";
 import PalmTree from "../Components/PalmTree";
 import Wall from "../Components/Wall";
 import Window from "../Components/Window";
+import Person from "../Components/Person";
 import { useEffect } from "react";
 import githubPic from "../assets/GithubPicture.png";
 import codePic from "../assets/codePicture.png";
@@ -33,13 +34,6 @@ function Home(){
         <>
             <div className="home-page">
                 <div className="desk-scene-container">
-
-                    
-                    
-    
-                    <div className="me">
-                        <div className="head"></div>
-                    </div>
 
                     <div className="setup-container">
                         <Wall 
@@ -72,6 +66,7 @@ function Home(){
                         
 
                         <DeskChair></DeskChair>
+                        <Person/>
                         <Desk></Desk>
                         <Monitor 
                             degreeAngle={45}
