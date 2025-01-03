@@ -12,7 +12,7 @@ function App() {
     <>
      <BrowserRouter>
       <Header/>
-      <SwitchButton/>
+      {/* <SwitchButton/> */}
       <Routes>
         <Route path='/FullstackPort' element={
           <>

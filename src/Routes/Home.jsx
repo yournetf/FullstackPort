@@ -43,8 +43,8 @@ function Home(){
 
                     <div className="setup-container">
                         <Wall 
-                            Component={Window} 
-                            componentProps={windowProps}
+                            // Component={Window} 
+                            // componentProps={windowProps}
                             height={250}
                             width={300} 
                             angle={45} 
