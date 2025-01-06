@@ -14,6 +14,27 @@
     z-index: 4;
 }
 
+.keyboard{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(183, 183, 183);
+    border-radius: 3px;
+    z-index: 5;
+}
+
+.keys{
+    position: absolute;
+    width: 95%;
+    height: 90%;
+    top: 5%;
+    left: 2.5%;
+    border-radius: 3px;
+    background-color: white;
+}
+
 .desk-leg{
     position: absolute;
 }

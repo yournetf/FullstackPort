@@ -24,7 +24,12 @@ function Desk(){
     return(
         <>
             <div className="desk">
-                <div className="desktop"></div>
+                <div className="desktop">
+                    <div className="keyboard">
+                        <div className="keys"></div>
+                    </div>
+                    <div className="mouse"></div>
+                </div>
                 <div ref={deskBlock} className="desk-block">
                     <div className="desk-counter"></div>
                     <div className="desk-front">
