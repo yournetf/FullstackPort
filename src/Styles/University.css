@@ -1,11 +1,12 @@
 .chairSection{
     height: calc(100vh - 500px);
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(50, 50, 50), rgb(30, 30, 30), rgb(30, 30, 30), rgb(30, 30, 30), black);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
+    border-top: 20px solid black;
 }
 
 

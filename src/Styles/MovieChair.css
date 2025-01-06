@@ -13,7 +13,7 @@
     min-width: 180px;
     min-height: 80px;
     z-index: 2;
-    background-color: rgb(184, 4, 4);
+    background: linear-gradient(rgb(120, 120, 120), rgb(184, 4, 4), rgb(184, 4, 4), rgb(184, 4, 4), rgb(184, 4, 4));
     clip-path: ellipse(30% 80% at 51% 87%);
     box-shadow: inset 10px 10px 10px 10px rgba(255, 255, 255, 0.246);
 }
