@@ -1,0 +1,38 @@
+
+.home-page{
+    margin-top: 200px;
+    z-index: 1;
+    position: relative;
+    background-color: rgb(48, 48, 48);
+}
+
+
+
+.desk-scene-container{
+    position: relative;
+    background-color: rgb(48, 48, 48);
+    top: -50px;
+    height: 600px;
+    width: 100%;
+}
+
+
+.setup-container{
+    position: relative;
+    min-height: 250px;
+    max-width: fit-content;
+    left: 35%;
+    top: 25%;
+}
+
+img{
+    position: absolute;
+    margin-left: -300px;
+    margin-top: -130px;
+}
+
+
+
+
+
+

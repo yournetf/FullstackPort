@@ -1,0 +1,29 @@
+.head{
+    position: absolute;
+    left: 160px;
+    top: -15px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.bulkHair{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(rgb(198,134,66));
+    background-color: rgb(198,134,66);
+    border-radius: 50px;
+}
+
+.spikedHair{
+    position: absolute;
+    margin-top: -20px;
+    width: 65px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    clip-path: polygon(53% 54%, 81% 37%, 86% 57%, 100% 63%, 84% 84%, 88% 100%, 6% 99%, 3% 55%, 21% 60%, 36% 44%);
+    background: linear-gradient(rgb(67, 48, 28), rgb(67, 48, 28), rgb(67, 48, 28), rgb(67, 48, 28), rgb(67, 48, 28), rgb(67, 48, 28),rgb(67, 48, 28),rgb(67, 48, 28),rgb(67, 48, 28), rgba(255, 255, 255, 0));
+}
