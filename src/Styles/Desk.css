@@ -22,7 +22,30 @@
     height: 40px;
     background-color: rgb(183, 183, 183);
     border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.266);
     z-index: 5;
+}
+
+.mousepad{
+    position: absolute;
+    top: 58px;
+    left: 280px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(23, 23, 23, 0.373);
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.186);
+    z-index: 5;
+}
+
+.mouse{
+    position: absolute;
+    width: 15px;
+    height: 21px;
+    top: 3px;
+    left: 5px;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
 }
 
 .keys{
